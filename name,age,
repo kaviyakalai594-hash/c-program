@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+
+int main() {
+char name[10],city[40];
+int age;
+    printf("Enter the name");
+    scanf("%s",name);
+    printf("Enter the city");
+    scanf("%d",city);
+    printf("Enter the age");
+    scanf("%d",age);
+    printf("name:%s\nage:%d\n:city:%s",name,age,city);
+    
+    
+    return 0;
+}
